@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  --cw-dark-gray: #434343;
+  --cw-gray: #b1b1b1;
+  --cw-dark-red: #a52a00;
+  --brighter-red: #e60000;
+  color: var(--cw-dark-gray);
+  background-attachment: fixed;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #3366cc;
+}
+
+a:visited {
+  color: #76169c;
+}
+
+a:hover {
+  color: #7094db;
+}
+
+a.card-link:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  color: #5c85d6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Cormorant Garamond', "Calisto MT", "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+.red-line {
+  border-bottom: 2px solid rgba(165, 42, 0, 0.2);
+}
+
+h2 {
+  border-bottom: 3px solid hsla(0, 0%, 100%, 0.2);
+  font-size: 1.9rem;
+  padding-top: 70px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+
+h3.subsection {
+  font-size: 1rem;
+  padding-top: 10px;
+  font-family: inherit;
+}
+
+h4 {
+  font-size: 1rem;
+  padding-top: 5px;
+  margin-left: 10px;
+  font-family: inherit;
+}
+
+.fab {
+  font-size: 1.3rem;
+}
+
+.bg-dark-cw {
+  background-color: var(--cw-dark-gray);
+}
+
+.container {
+  background-color: hsla(0, 0%, 100%, 0.7);
+  border-radius: 2px;
+  padding: 50px 3rem;
+  margin-top: 90px;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+}
+
+.header {
+  background-image: linear-gradient(
+    to left,
+    hsla(0, 0%, 26%, 0.7),
+    hsla(0, 0%, 100%, 0.2)
+  );
+  border-radius: 2px;
+  /* text-align: right; */
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.project {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery-row {
+  padding: 0.1rem;
+}
+
+.gallery-col {
+  padding: 0.3rem;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+}
+
+.card-body ul {
+  padding-inline-start: 20px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-img-top {
+  border-bottom: 1px solid #eee;
+}
+
+.card-text {
+  font-size: 0.8rem;
+}
+
+.tech-info {
+  font-size: 0.7rem;
+}
+
+.card-link {
+  font-size: 0.8rem;
+}
+
+.profile-picture {
+  width: 100px;
+}
+
+form {
+  font-size: 0.8rem;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+.required {
+  color: var(--brighter-red);
+}
+
+.submit-buttons {
+  padding: 0.5rem 0;
+}
+
+.btn {
+  width: 8rem;
+}
+
+footer {
+  color: hsla(0, 0%, 100%, 0.7);
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .container {
+    padding: 50px 1rem;
+  }
+}
